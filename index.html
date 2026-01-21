@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            background-color: #000;
+            color: #f5a3ff;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 120px 20px 80px;
+            background: linear-gradient(to bottom, #000, #1a001a);
+            animation: fadeIn 1.5s ease;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .gallery {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            animation: fadeIn 2s ease;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border: 2px solid #f5a3ff;
+            border-radius: 6px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ff4dff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #ffb7ff;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Divider Section */
+.divider-section {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, #1a001a, #000);
+    border-top: 3px solid #ff4dff;
+    border-bottom: 3px solid #ff4dff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Featured Image Section */
+.featured-image {
+    text-align: center;
+    padding: 40px 20px 80px;
+}
+
+.featured-image img {
+    width: 80%;
+    max-width: 600px;
+    border: 3px solid #f5a3ff;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-image img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px #ff4dff;
+}
+/* CTA Section */
+.cta {
+    text-align: center;
+    padding: 80px 20px;
+    background: #0a000a;
+    border-top: 3px solid #ff4dff;
+    border-bottom: 3px solid #ff4dff;
+    animation: fadeIn 2s ease;
+}
+
+.cta h2 {
+    font-size: 2.4rem;
+    color: #ff8cff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cta p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f5a3ff;
+    text-align: center;
+}
+
+.cta-sub {
+    font-weight: bold;
+    margin-top: 30px;
+    color: #ffb7ff;
+    text-align: center;
+}
+
+.newsletter {
+    margin-top: 30px;
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Coming Soon</h1>
+        <p>Exclusive content. Premium experiences. Stay tuned.</p>
+    </header>
+<section class="cta">
+    <h2>Daddy Zan's Collective</h2>
+    <p>
+        is launching all‑new content soon. Expect regular episodes of video and photo 
+        featuring the Collective serving their Daddy. This website is only a teaser — 
+        no content will be posted here.
+    </p>
+    <p class="cta-sub">
+        Sign up for our newsletter to stay updated on releases.
+    </p>
+
+    <form class="newsletter">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Notify Me</button>
+    </form>
+</section>
+
+    <section class="gallery">
+        <!-- Replace these with your actual images -->
+        <img src="B.jpg" alt="Model 1">
+        <img src="Brie.jpg" alt="Model 1">
+        <img src="Chey.jpg" alt="Model 2">
+        <img src="Claudia.jpg" alt="Model 3">
+        <img src="Courtney.jpg" alt="Model 4">
+        <img src="Haley1.jpg" alt="Model 5">
+        <img src="Nikki.jpg" alt="Model 6">
+        <img src="A.jpg" alt="Model 6">
+    </section>
+<!-- Divider Section -->
+<section class="divider-section"></section>
+
+<!-- Featured Single Image -->
+<section class="featured-image">
+    <img src="Zan.jpg" alt="Featured">
+</section>
+
+    <footer>
+        © 2026 — New content is on the way. “This site contains no explicit content. All images are safe for work.”
+    </footer>
+
+</body>
+</html>
